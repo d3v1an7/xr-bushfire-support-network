@@ -1,6 +1,6 @@
 # xr-bushfire-support-network
 
-Eco friendly website for Bushfire Support Network.
+[Eco friendly website](https://www.websitecarbon.com/website/bushfiresupport-net/) for the Extinction Rebellion Bushfire Support Network.
 
 # Local development
 
