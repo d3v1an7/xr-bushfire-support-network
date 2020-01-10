@@ -18,3 +18,8 @@ credits:
     icon: 'github'
 sass:
   style: compressed
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: /img/social-min.png
