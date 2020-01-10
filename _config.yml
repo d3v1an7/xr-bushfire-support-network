@@ -6,6 +6,9 @@ cta:
     url: 'https://forms.gle/qfJJRpNP5AfxSpWX6'
   - title: 'Request assistance'
     url: 'https://forms.gle/VfEVdYixV6BsaRNi6'
+links:
+  volunteer: 'https://forms.gle/qfJJRpNP5AfxSpWX6'
+  request: 'https://forms.gle/VfEVdYixV6BsaRNi6'
 credits:
   - title: 'Photo by Kevin Hetebry'
     url: 'https://unsplash.com/@kevinhetebry'
