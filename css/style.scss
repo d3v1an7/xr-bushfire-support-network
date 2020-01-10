@@ -1,0 +1,89 @@
+---
+---
+
+@import '_icons';
+@import '_fonts';
+
+$colour-light: #DDDDDD;
+$colour-dark: #272727;
+$font-body: 'Crimson Text', Georgia, serif, sans-serif;
+$font-heading: 'FucXed', Helvetica, sans-serif;
+
+html {
+  font-family: $font-body;
+  font-size: 21px;
+  line-height: 30px;
+  color: $colour-dark;
+  background: url(/img/background-min.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+}
+
+body {
+  padding: 20px;
+}
+
+.credits,
+.cta,
+.logo {
+  font-family: $font-heading;
+  text-transform: uppercase;
+}
+
+a {
+  color: $colour-dark;
+}
+
+#home div div {
+  max-width: 800px;
+}
+
+.logo {
+  text-align: left;
+  margin-bottom: 30px;
+  h1 {
+    font-size: 21px;
+    line-height: 20px;
+  }
+}
+
+.cta {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  li {
+    list-style-type: none;
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 10px;
+  }
+  a {
+    display: block;
+    color: $colour-light;
+    background: $colour-dark;
+    text-decoration: none;
+    padding: 16px;
+  }
+}
+
+.credits {
+  margin: 40px 0 0 0;
+  padding: 0;
+  font-size: 12px;
+  line-height: 1;
+  vertical-align: top;
+  li {
+    list-style-type: none;
+    margin-bottom: 10px;
+  }
+  a {
+    display: block;
+    text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 64em) {
+  .cta {
+    margin-top: 65px;
+  }
+}

@@ -1,0 +1,16 @@
+<footer>
+  <div class="row">
+    <div class="col-xs-12 col-md-offset-3 col-md-7">
+      <ul class="credits">
+        {% for item in site.credits %}
+        <li>
+          <a href="{{ item.url }}"><i data-feather="{{ item.icon }}"></i> {{ item.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</footer>
+<script>
+  feather.replace()
+</script>

@@ -1,0 +1,22 @@
+<header>
+  <div class="row">
+    <div class="col-xs-12 col-md-offset-1 col-lg-offset-2 col-md-1">
+      <div class="logo">
+        <svg focusable="false" width="40" height="40" viewBox="0 0 40 40" role="img" aria-label="Extinction Symbol">
+          <path d="M20,0a20,20,0,0,0,0,40h0A20,20,0,0,0,40,20h0A20,20,0,0,0,20,0Zm0,2.91A17.09,17.09,0,0,1,37.09,20h0A17.09,17.09,0,0,1,20,37.09h0A17.09,17.09,0,0,1,2.91,20h0A17.09,17.09,0,0,1,20,2.91Z"/>
+          <path d="M33.07,7.23l-26.14,0L18.08,20,6.93,32.72l26.14.05L21.91,20ZM13.28,10.14H26.65L20,17.83ZM20,22.19l6.69,7.69H13.31Z"/>
+        </svg>
+        <h1>Bushfire Support Network</h1>
+      </div>
+    </div>
+    <div class="col-xs-12 col-md-offset-1 col-lg-offset-0 col-md-7">
+      <ul class="cta">
+        {% for item in site.cta %}
+        <li>
+          <a href="{{ item.url }}">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</header>

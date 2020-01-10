@@ -1,0 +1,17 @@
+site: Bushfire Support Network
+description: Connecting volunteers that are ready to act with those affected by bushfires.
+timezone: Australia/Sydney
+cta:
+  - title: 'Sign up to volunteer'
+    url: 'https://forms.gle/qfJJRpNP5AfxSpWX6'
+  - title: 'Request assistance'
+    url: 'https://forms.gle/VfEVdYixV6BsaRNi6'
+credits:
+  - title: 'Photo by Kevin Hetebry'
+    url: 'https://unsplash.com/@kevinhetebry'
+    icon: 'camera'
+  - title: 'Site hosted by GitHub'
+    url: 'https://github.com/d3v1an7/xr-bushfire-support-network'
+    icon: 'github'
+sass:
+  style: compressed

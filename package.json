@@ -1,0 +1,29 @@
+{
+  "name": "xr-bushfire-support-network",
+  "version": "1.0.0",
+  "description": "Website for Bushfire Support Network",
+  "devDependencies": {
+    "husky": "^4.0.5"
+  },
+  "scripts": {
+    "start": "bundle exec jekyll serve --livereload",
+    "build": "bundle exec jekyll build",
+    "update": "bundle update && npm update",
+    "clean": "lsof -i :35729 | awk '{system(\"kill -9 \" $2)}'"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm run build"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://d3v1an7@github.com/d3v1an7/xr-bushfire-support-network.git"
+  },
+  "author": "Extinction Rebellion",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/d3v1an7/xr-bushfire-support-network/issues"
+  },
+  "homepage": "https://github.com/d3v1an7/xr-bushfire-support-network#readme"
+}
