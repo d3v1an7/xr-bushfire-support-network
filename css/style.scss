@@ -14,13 +14,29 @@ html {
   font-size: 21px;
   line-height: 30px;
   color: $colour-dark;
+  background: $colour-light;
+}
+
+header,
+section,
+footer {
+  padding: 0 20px 0 20px;
+}
+
+header {
+  padding-top: 40px;
+}
+
+.background {
+  position: absolute;
   background: url(../img/background-min.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
-}
-
-body {
-  padding: 20px;
+  width: 100vw;
+  z-index: -1;
+  opacity: 0.2;
+  transform: translateZ(0)
+  transition: opacity 1s ease-in-out;
 }
 
 .credits,
@@ -79,6 +95,12 @@ a {
   a {
     display: block;
     text-decoration: none;
+  }
+}
+
+@media only screen and (min-width: 48em) {
+  .background {
+    opacity: 1;
   }
 }
 
