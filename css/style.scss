@@ -28,7 +28,7 @@ header {
 }
 
 .background {
-  position: absolute;
+  position: fixed;
   background: url(../img/background-min.jpg) no-repeat center center fixed;
   background-size: cover;
   height: 100vh;
