@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+{% include head.html %}
+<body class="{{ page.title | slugify }}">
+  {% include header.html %}
+  <section id="{{ page.section }}">
+    <div class="row">
+      <div class="col-xs-12 col-md-offset-3 col-md-7">
+      {{ content }}
+      </div>
+    </div>
+  </section>
+  {% include footer.html %}
+</body>
+</html>

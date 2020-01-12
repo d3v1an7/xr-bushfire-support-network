@@ -23,6 +23,9 @@ footer {
   padding: 0 20px 0 20px;
 }
 
+footer {
+  padding-bottom: 40px;
+}
 header {
   padding-top: 40px;
 }
@@ -39,6 +42,9 @@ header {
   transition: opacity 1s ease-in-out;
 }
 
+h1,
+h2,
+h3,
 .credits,
 .cta,
 .logo {
@@ -50,8 +56,18 @@ a {
   color: $colour-dark;
 }
 
-#home div div {
+#home div div,
+#faq div div {
   max-width: 800px;
+}
+
+#faq {
+  margin-top: 30px;
+  padding-top: 10px;
+  background: $colour-light;
+}
+body.faqs footer {
+  background: $colour-light;
 }
 
 .logo {
@@ -60,6 +76,9 @@ a {
   h1 {
     font-size: 21px;
     line-height: 20px;
+  }
+  a {
+    text-decoration: none;
   }
 }
 
@@ -93,7 +112,7 @@ a {
     margin-bottom: 10px;
   }
   a {
-    display: block;
+    display: inline-block;
     text-decoration: none;
   }
 }

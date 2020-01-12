@@ -18,8 +18,17 @@ credits:
     icon: 'github'
 sass:
   style: compressed
+collections:
+  pages:
+    output: true
+    permalink: /:name
 defaults:
   - scope:
-      path: ""
+      path: ''
     values:
       image: /img/social-min.png
+  - scope:
+      path: ''
+      type: pages
+    values:
+      layout: page
